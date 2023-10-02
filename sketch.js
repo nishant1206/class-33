@@ -16,9 +16,11 @@ var b1;
 var b2;
 var b3;
 var b4;
+var bg;
 
 function preload() {
     change_bg();
+    /*bg = loadImage("sprites/bg.png");*/
     b1 = loadImage("sprites/bird.png");
     b2 = loadImage("sprites/bird2.png");
     b3 = loadImage("sprites/bird3.png");
